@@ -1,0 +1,6 @@
+@OfficePortal_CRUD_HostAddress = http://localhost:5215
+
+GET {{OfficePortal_CRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
