@@ -98,6 +98,7 @@ namespace OfficePortal_CRUD_API.Controllers
 
         //Delete employee
         [HttpDelete]
+        [Route("api/employees/{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             var employee = await _context.Employees.FindAsync(id);
